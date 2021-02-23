@@ -39,9 +39,9 @@ int main(){
 	*/
 
 	int x = 10,y = 5;
-	cout << x << " " << y << '\n';
+	std::cout << x << " " << y << '\n';
 	swap(x,y);
-	cout << x << " " << y << '\n';
+	std::cout << x << " " << y << '\n';
 
 	/*
 	The main application of reference is when we take function parameters as reference this means if we change the values
@@ -56,8 +56,8 @@ int main(){
 	std::cout << "int size : " << sizeof(char) << '\n';
 	int n = 1089;
 	int *pnt = &n;
-	cout << pnt << " " << &n << '\n';
-	cout << *pnt << " " << n << '\n';
+	std::cout << pnt << " " << &n << '\n';
+	std::cout << *pnt << " " << n << '\n';
 	char *c = (char*)pnt;
 	std::cout << *c << '\n';
 
@@ -221,9 +221,9 @@ Node* DeleteFront(Node* head){
 }
 
 void PrintList(Node* head){
-	cout << "LinkedList : ";
+	std::cout << "LinkedList : ";
 
-	if(!head)cout << "null";
+	if(!head)std::cout << "null";
 	//checks if 'head' is NULL or not
 
 	while(head!=NULL){
@@ -232,5 +232,5 @@ void PrintList(Node* head){
 	}
 	//loops through all the value of linkedList and prints then one-by-one
 
-	cout << '\n';
+	std::cout << '\n';
 }
