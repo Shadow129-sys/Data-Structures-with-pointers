@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
- 
+  
 /*
 If U want to see more such implementation of pointers in Data Structures let me know
 email : gsayankr02@gmail.com
